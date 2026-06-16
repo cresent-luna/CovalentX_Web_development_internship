@@ -1,0 +1,41 @@
+body{
+    font-family:Arial,sans-serif;
+    background:lightpink;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+#display{
+    font-size:50px;
+    margin:20px;
+    font-weight:bold;
+}
+
+button{
+    padding:10px 20px;
+    margin:5px;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+button:nth-child(3){
+    background:green;
+}
+
+button:nth-child(4){
+    background:red;
+}
+
+button:nth-child(5){
+    background:blue;
+}
